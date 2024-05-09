@@ -20,10 +20,13 @@ services:
         condition: service_healthy
     secrets:
       - db-password
+<<<<<<< HEAD
     develop:
      watch:
       - action: rebuild
         path: .
+=======
+>>>>>>> ed92816c5ac76b1a87307ea2bd579d4393743f8a
   db:
     image: postgres
     restart: always
@@ -47,6 +50,10 @@ volumes:
 secrets:
   db-password:
     file: db/password.txt
+<<<<<<< HEAD
+=======
+
+>>>>>>> ed92816c5ac76b1a87307ea2bd579d4393743f8a
 # The commented out section below is an example of how to define a PostgreSQL
 # database that your application can use. `depends_on` tells Docker Compose to
 # start the database before your application. The `db-data` volume persists the

@@ -6,7 +6,11 @@
 
 # Want to help us make this template better? Share your feedback here: https://forms.gle/ybq9Krt8jtBL3iCk7
 
+<<<<<<< HEAD
 ARG PYTHON_VERSION=3.11.2
+=======
+ARG PYTHON_VERSION=3.11.4
+>>>>>>> ed92816c5ac76b1a87307ea2bd579d4393743f8a
 FROM python:${PYTHON_VERSION}-slim as base
 
 # Prevents Python from writing pyc files.
