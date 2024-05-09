@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
        - name: flask-service
-         image: tkalyani13/lab5
+         image: tkalyani13/dockerlab
          imagePullPolicy: Always
          env:
           - name: POSTGRES_PASSWORD
